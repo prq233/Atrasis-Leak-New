@@ -1,0 +1,35 @@
+﻿using System;
+
+namespace Atrasis.Magic.Logic.Message.Alliance.Stream
+{
+	// Token: 0x020000E7 RID: 231
+	public enum StreamEntryType
+	{
+		// Token: 0x04000411 RID: 1041
+		DONATE = 1,
+		// Token: 0x04000412 RID: 1042
+		CHAT,
+		// Token: 0x04000413 RID: 1043
+		JOIN_REQUEST,
+		// Token: 0x04000414 RID: 1044
+		ALLIANCE_EVENT,
+		// Token: 0x04000415 RID: 1045
+		REPLAY,
+		// Token: 0x04000416 RID: 1046
+		CHALLENGE_REPLAY = 11,
+		// Token: 0x04000417 RID: 1047
+		CHALLENGE,
+		// Token: 0x04000418 RID: 1048
+		ARRANGED_WAR_REQUEST,
+		// Token: 0x04000419 RID: 1049
+		ARRANGED_WAR_REQUEST_OWN,
+		// Token: 0x0400041A RID: 1050
+		ALLIANCE_GIFT = 16,
+		// Token: 0x0400041B RID: 1051
+		BASE_BUILDER_BATTLE_REQUEST = 18,
+		// Token: 0x0400041C RID: 1052
+		BASE_BUILDER_BATTLE_REPLAY,
+		// Token: 0x0400041D RID: 1053
+		DUEL_REPLAY = 21
+	}
+}

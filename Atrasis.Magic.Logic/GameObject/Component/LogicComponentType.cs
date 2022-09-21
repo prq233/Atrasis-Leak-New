@@ -1,0 +1,43 @@
+﻿using System;
+
+namespace Atrasis.Magic.Logic.GameObject.Component
+{
+	// Token: 0x0200011F RID: 287
+	public enum LogicComponentType
+	{
+		// Token: 0x0400063B RID: 1595
+		UNIT_STORAGE,
+		// Token: 0x0400063C RID: 1596
+		COMBAT,
+		// Token: 0x0400063D RID: 1597
+		HITPOINT,
+		// Token: 0x0400063E RID: 1598
+		UNIT_PRODUCTION,
+		// Token: 0x0400063F RID: 1599
+		MOVEMENT,
+		// Token: 0x04000640 RID: 1600
+		RESOURCE_PRODUCTION,
+		// Token: 0x04000641 RID: 1601
+		RESOURCE_STORAGE,
+		// Token: 0x04000642 RID: 1602
+		BUNKER,
+		// Token: 0x04000643 RID: 1603
+		TRIGGER,
+		// Token: 0x04000644 RID: 1604
+		UNIT_UPGRADE,
+		// Token: 0x04000645 RID: 1605
+		HERO_BASE,
+		// Token: 0x04000646 RID: 1606
+		WAR_RESOURCE_STORAGE,
+		// Token: 0x04000647 RID: 1607
+		SPAWNER,
+		// Token: 0x04000648 RID: 1608
+		LAYOUT,
+		// Token: 0x04000649 RID: 1609
+		LOOT_CART,
+		// Token: 0x0400064A RID: 1610
+		VILLAGE2_UNIT,
+		// Token: 0x0400064B RID: 1611
+		DEFENCE_UNIT_PRODUCTION
+	}
+}

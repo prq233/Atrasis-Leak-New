@@ -1,0 +1,94 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28729.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atrasis.Magic.Servers.Admin", "Atrasis.Magic.Servers.Admin\Atrasis.Magic.Servers.Admin.csproj", "{7AA53A01-82FD-4F83-BAD0-620C983624F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atrasis.Magic.Servers.Battle", "Atrasis.Magic.Servers.Battle\Atrasis.Magic.Servers.Battle.csproj", "{7AA53A01-82FD-4F83-BAD0-620C983624F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atrasis.Magic.Servers.Chat", "Atrasis.Magic.Servers.Chat\Atrasis.Magic.Servers.Chat.csproj", "{7AA53A01-82FD-4F83-BAD0-620C983624F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atrasis.Magic.Servers.Game", "Atrasis.Magic.Servers.Game\Atrasis.Magic.Servers.Game.csproj", "{7AA53A01-82FD-4F83-BAD0-620C983624FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atrasis.Magic.Servers.Home", "Atrasis.Magic.Servers.Home\Atrasis.Magic.Servers.Home.csproj", "{7AA53A01-82FD-4F83-BAD0-620C983624FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atrasis.Magic.Servers.Proxy", "Atrasis.Magic.Servers.Proxy\Atrasis.Magic.Servers.Proxy.csproj", "{7AA53A01-82FD-4F83-BAD0-620C983624FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atrasis.Magic.Servers.Scoring", "Atrasis.Magic.Servers.Scoring\Atrasis.Magic.Servers.Scoring.csproj", "{7AA53A01-82FD-4F83-BAD0-620C983624FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atrasis.Magic.Servers.Search", "Atrasis.Magic.Servers.Search\Atrasis.Magic.Servers.Search.csproj", "{7AA53A01-82FD-4F83-BAD0-620C983624FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atrasis.Magic.Servers.Stream", "Atrasis.Magic.Servers.Stream\Atrasis.Magic.Servers.Stream.csproj", "{7AA53A01-82FD-4F83-BAD0-620C983624FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atrasis.Magic.Logic", "Atrasis.Magic.Logic\Atrasis.Magic.Logic.csproj", "{7AA53A01-82FD-4F83-BAD0-620C983624F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atrasis.Magic.Servers.Admin.Views", "Atrasis.Magic.Servers.Admin.Views\Atrasis.Magic.Servers.Admin.Views.csproj", "{7AA53A01-82FD-4F83-BAD0-620C983624F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atrasis.Magic.Servers.Core", "Atrasis.Magic.Servers.Core\Atrasis.Magic.Servers.Core.csproj", "{7AA53A01-82FD-4F83-BAD0-620C983624F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atrasis.Magic.Titan", "Atrasis.Magic.Titan\Atrasis.Magic.Titan.csproj", "{7AA53A01-82FD-4F83-BAD0-620C98362500}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7AA53A01-82FD-4F83-BAD0-620C983624F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AA53A01-82FD-4F83-BAD0-620C983624F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AA53A01-82FD-4F83-BAD0-620C983624F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AA53A01-82FD-4F83-BAD0-620C983624F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AA53A01-82FD-4F83-BAD0-620C983624F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AA53A01-82FD-4F83-BAD0-620C983624F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AA53A01-82FD-4F83-BAD0-620C983624F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AA53A01-82FD-4F83-BAD0-620C983624F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AA53A01-82FD-4F83-BAD0-620C983624F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AA53A01-82FD-4F83-BAD0-620C983624F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AA53A01-82FD-4F83-BAD0-620C983624F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AA53A01-82FD-4F83-BAD0-620C983624F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AA53A01-82FD-4F83-BAD0-620C983624FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AA53A01-82FD-4F83-BAD0-620C983624FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AA53A01-82FD-4F83-BAD0-620C983624FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AA53A01-82FD-4F83-BAD0-620C983624FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AA53A01-82FD-4F83-BAD0-620C983624FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AA53A01-82FD-4F83-BAD0-620C983624FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AA53A01-82FD-4F83-BAD0-620C983624FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AA53A01-82FD-4F83-BAD0-620C983624FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AA53A01-82FD-4F83-BAD0-620C983624FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AA53A01-82FD-4F83-BAD0-620C983624FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AA53A01-82FD-4F83-BAD0-620C983624FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AA53A01-82FD-4F83-BAD0-620C983624FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AA53A01-82FD-4F83-BAD0-620C983624FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AA53A01-82FD-4F83-BAD0-620C983624FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AA53A01-82FD-4F83-BAD0-620C983624FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AA53A01-82FD-4F83-BAD0-620C983624FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AA53A01-82FD-4F83-BAD0-620C983624FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AA53A01-82FD-4F83-BAD0-620C983624FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AA53A01-82FD-4F83-BAD0-620C983624FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AA53A01-82FD-4F83-BAD0-620C983624FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AA53A01-82FD-4F83-BAD0-620C983624FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AA53A01-82FD-4F83-BAD0-620C983624FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AA53A01-82FD-4F83-BAD0-620C983624FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AA53A01-82FD-4F83-BAD0-620C983624FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AA53A01-82FD-4F83-BAD0-620C983624F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AA53A01-82FD-4F83-BAD0-620C983624F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AA53A01-82FD-4F83-BAD0-620C983624F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AA53A01-82FD-4F83-BAD0-620C983624F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AA53A01-82FD-4F83-BAD0-620C983624F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AA53A01-82FD-4F83-BAD0-620C983624F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AA53A01-82FD-4F83-BAD0-620C983624F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AA53A01-82FD-4F83-BAD0-620C983624F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AA53A01-82FD-4F83-BAD0-620C983624F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AA53A01-82FD-4F83-BAD0-620C983624F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AA53A01-82FD-4F83-BAD0-620C983624F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AA53A01-82FD-4F83-BAD0-620C983624F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AA53A01-82FD-4F83-BAD0-620C98362500}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AA53A01-82FD-4F83-BAD0-620C98362500}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AA53A01-82FD-4F83-BAD0-620C98362500}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AA53A01-82FD-4F83-BAD0-620C98362500}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

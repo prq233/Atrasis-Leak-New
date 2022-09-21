@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Atrasis.Magic.Logic\Atrasis.Magic.Logic.csproj" />
+    <ProjectReference Include="..\Atrasis.Magic.Servers.Core\Atrasis.Magic.Servers.Core.csproj" />
+    <ProjectReference Include="..\Atrasis.Magic.Titan\Atrasis.Magic.Titan.csproj" />
+  </ItemGroup>
+
+</Project>
