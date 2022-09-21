@@ -1,0 +1,49 @@
+{
+  "contentUrls": [
+    "http://192.168.100.2/Patchs/",
+    "http://192.168.100.2/Patchs"
+  ],
+ "chronosContentUrls": ["http://192.168.100.2/events"],
+ "appstoreUrls": [
+     {
+      "id": 1,
+      "link": "APPSTORE"
+    },
+    {
+      "id": 2,
+      "link": "APPSTORE"
+    },
+    {
+      "id": 100,
+      "link": "APPSTORE"
+    }
+  ],
+ "resourceSHA": "af0ebe8f1829e3519196ef262906b145988eb129",
+ "encryption": [
+ {
+	"pepperKeys": {
+	"secret": "4c444a4b4c396876736b6c3b6473766b666c73676a90fbef",
+	"public": "77035c098d0a04753b77167c7133cdd4b7052813ed47c461"
+	}
+ }
+ ],
+  "environment": {
+    "opCommandAllowedInGlobalChat": false,
+    "contentValidationModeEnabled": false,
+	"supportedAppVersions" : ["9.256.20"],
+	"supportedCountries" : ["ENG"],
+	"developerIPs" : ["192.168.100.2"],
+    "presetLevelFiles": [
+	  "/level/townhall12.json",
+	  "/level/starting_home.json",
+      "/level/test/warleague_th12_Bastian.json",
+      "/level/test/warleague_th12_mobilityDLY.json",
+      "/level/test/warleague_th12_monzetti.json"
+    ]
+  },
+  "api": {
+    "facebookAppId": "594969670992151",
+    "googleClientId": "864474743797-pmv5odkq2gpgfvn61og6f1phni4g6p02.apps.googleusercontent.com",
+    "googleClientSecret": "0dPW1yKEtVJWfxvhceEkGVZ1"
+  }
+}

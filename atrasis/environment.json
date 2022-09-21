@@ -1,0 +1,106 @@
+{
+  "environment": "stage",
+  "servers": {
+    "settings": {
+      "startInMaintenanceMode": false,
+      "protocolSecureKey":"jdvtrzh/9l/we6SrgqbrWg==" ,
+        "presetLevelFiles": [
+		  "/level/starting_home.json",
+          "/level/townhall9.json",
+          "/level/townhall10.json",
+          "/level/townhall11.json",
+          "/level/test/highlevel1.json",
+          "/level/test/highlevel2.json",
+          "/level/test/highlevel3.json",
+          "/level/test/highlevel4.json",
+          "/level/test/highlevel5.json",
+          "/level/test/highlevel6.json",
+          "/level/test/highlevel7.json",
+          "/level/test/highlevel8.json",
+          "/level/test/highlevel9.json",
+          "/level/test/playtest0.json",
+          "/level/test/playtest1.json",
+          "/level/test/playtest2.json",
+          "/level/test/playtest3.json",
+          "/level/test/playtest4.json",
+          "/level/test/playtest5.json"
+        ]
+    },
+    "admin": [
+      "192.168.100.2:10001"
+    ],
+    "proxy": [
+      "192.168.100.2:10002"
+    ],
+    "chat": [
+      "192.168.100.2:10003"
+    ],
+    "game": [
+      "192.168.100.2:10004"
+    ],
+    "home": [
+      "192.168.100.2:10005"
+    ],
+    "stream": [
+      "192.168.100.2:10007"
+    ],
+    "battle": [
+      "192.168.100.2:10008"
+    ],
+    "scoring": [
+      "192.168.100.2:10009"
+    ],
+    "search": [
+      "192.168.100.2:10010"
+    ]
+  },
+  "database": {
+    "higher_id_counter_size": 256,
+	
+    "couchbase": {
+      "servers": [
+        {
+          "hosts": [
+            "127.0.0.1"
+          ],
+          "username": "Administrator",
+          "password": "123456"
+        }
+      ],
+      "buckets": [
+	  {
+	   "type":"magic-alliances",
+	   "name":"magic-alliances",
+	   "serverIdx":0
+	  },
+	  {
+	   "type":"magic-players",
+	   "name":"magic-players",
+	   "serverIdx":0
+	  },
+	  {
+	   "type":"magic-seasons",
+	   "name":"magic-seasons",
+	   "serverIdx":0
+	  },
+	  {
+	   "type":"magic-streams",
+	   "name":"magic-streams",
+	   "serverIdx":0
+	  }
+      ]
+    },
+    "redis": {
+      "databases": [
+        {
+          "name": "magic-session",
+          "connectionString": "127.0.0.1:6379,password=zCCwdph7SakwmdGxqzKQ9yyvCM3LAZR9gTsxEmv5"
+        },
+        {
+          "name": "magic-admin",
+          "connectionString": "127.0.0.1:6379,password=zCCwdph7SakwmdGxqzKQ9yyvCM3LAZR9gTsxEmv5"
+        }
+      ]
+    }
+  }
+}
