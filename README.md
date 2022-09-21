@@ -6,7 +6,7 @@ you can find a solution yourself to be able to run it.
 
 Maybe problems at database or environment.json.
 
-If you the older one to run a server,[Check here](https://github.com/prq233/Atrasis-Leak)
+If you need the older one to run a server,[Check here](https://github.com/prq233/Atrasis-Leak)
 ## Websites
 
 * [Atrasis - Home Page](https://atrasiscoc.net/)
